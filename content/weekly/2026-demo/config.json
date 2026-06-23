@@ -1,0 +1,8 @@
+{
+  "title": "Demo \u2014 Binary Classification",
+  "metric": "macro_f1",
+  "idCol": "id",
+  "targetCol": "label",
+  "deadline": null,
+  "description": "A tiny demo competition to try the submit + leaderboard flow. Predict the binary label (0/1) for each id. The starter file predicts all zeros \u2014 beat it!"
+}

@@ -1,0 +1,91 @@
+{
+  "notebooks": [
+    {
+      "id": "lnk-welcome-to-colab",
+      "title": "Welcome to Colab (example link notebook)",
+      "category": "Getting Started",
+      "subcategory": null,
+      "tags": ["colab", "example"],
+      "colab": "https://colab.research.google.com/notebooks/intro.ipynb",
+      "kaggle": null,
+      "url": null
+    }
+  ],
+  "problems": [
+    {
+      "id": "gen_prob_1",
+      "title": "Pulsar Pipeline: Transient Candidate Vetting",
+      "difficulty": "Medium",
+      "tags": ["semi-supervised", "classification", "macro-F1", "tabular"],
+      "description": "A radio telescope flags thousands of candidate detections summarized by five engineered features. Out of 2000 archived candidates only 26 are labelled (genuine transient vs RFI); the rest are unlabelled. Build a classifier that exploits the latent structure of the unlabelled data and predict labels for two held-out runs. Metric: macro-averaged F1.",
+      "kaggle": null
+    },
+    {
+      "id": "ioai_25_antique",
+      "title": "IOAI 2025 — Antique (Individual Contest)",
+      "difficulty": "Hard",
+      "tags": ["IOAI 2025", "official", "individual contest"],
+      "description": "The Antique problem from the IOAI 2025 Individual Contest held in Beijing, China. Work the baseline, then compare against the worked solution.",
+      "colab": "https://colab.research.google.com/github/IOAI-official/IOAI-2025/blob/main/Individual-Contest/Antique/Antique.ipynb",
+      "kaggle": null
+    },
+    {
+      "id": "titanic",
+      "title": "Titanic — Machine Learning from Disaster (example)",
+      "difficulty": "Easy",
+      "tags": ["classification", "tabular", "starter"],
+      "description": "The canonical Kaggle starter competition. A good first end-to-end submission. *(Example of a fully link-based problem — delete it from Manage Content if you don't want it.)*",
+      "kaggle": "https://www.kaggle.com/competitions/titanic",
+      "baseline": "https://www.kaggle.com/code/alexisbcook/titanic-tutorial",
+      "solution": null,
+      "colab": null,
+      "datasets": [
+        { "label": "Competition data (train / test)", "url": "https://www.kaggle.com/competitions/titanic/data" }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "id": "ioai-official",
+      "title": "IOAI Official Site",
+      "url": "https://ioai-official.org/",
+      "category": "Official",
+      "description": "Syllabus, past contests and rules for the International Olympiad in Artificial Intelligence."
+    },
+    {
+      "id": "ioai-2025-china",
+      "title": "IOAI 2025 — China (problems & solutions)",
+      "url": "https://ioai-official.org/china-2025",
+      "category": "Official",
+      "description": "Individual and team contest materials from the 2025 olympiad."
+    },
+    {
+      "id": "d2l",
+      "title": "Dive into Deep Learning (d2l.ai)",
+      "url": "https://d2l.ai/",
+      "category": "Deep Learning",
+      "description": "Interactive, code-first deep learning textbook with runnable notebooks."
+    },
+    {
+      "id": "sklearn-ug",
+      "title": "scikit-learn User Guide",
+      "url": "https://scikit-learn.org/stable/user_guide.html",
+      "category": "Machine Learning",
+      "description": "The canonical reference for classical ML — the backbone of most tabular problems."
+    },
+    {
+      "id": "cs231n",
+      "title": "CS231n — Convolutional Neural Networks for Visual Recognition",
+      "url": "https://cs231n.github.io/",
+      "category": "Deep Learning",
+      "description": "Stanford course notes; excellent for the computer-vision portion of the syllabus."
+    },
+    {
+      "id": "kaggle-learn",
+      "title": "Kaggle Learn",
+      "url": "https://www.kaggle.com/learn",
+      "category": "Practice",
+      "description": "Short, hands-on micro-courses plus the competitions you'll track on your dashboard."
+    }
+  ]
+}

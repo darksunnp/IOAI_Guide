@@ -1,0 +1,13 @@
+node_modules/
+.env
+*.log
+
+# Build artifacts
+*.tgz
+*.tar.gz
+
+# Never commit secrets
+*serviceAccount*.json
+*firebase*adminsdk*.json
+*-adminsdk-*.json
+secrets/

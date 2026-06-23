@@ -1,0 +1,19 @@
+{
+  "name": "ioai-guide",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A USACO-Guide-style hub for IOAI prep: notebooks, problems, resources, Kaggle stats, activity tracker, and weekly competitions.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "dev": "node --env-file-if-exists=.env --watch server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^12.7.0",
+    "multer": "^2.0.1"
+  }
+}
