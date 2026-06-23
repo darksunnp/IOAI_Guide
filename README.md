@@ -4,7 +4,7 @@ A USACO-Guide-style hub for **IOAI** (International Olympiad in Artificial Intel
 
 - **Notebooks** — a syllabus library. Notebooks on the server render in-browser (markdown, highlighted code, plots); notebooks you host on **Colab/Kaggle** show as one-click "Open" links.
 - **Problems** — competition problems with **Baseline / Solution / Dataset** buttons and **Open in Kaggle**. Each button is just a link you paste (Kaggle/Colab/Drive), or a file already on the server.
-- **Resources** — a curated, admin-editable link shelf.
+- **Resources** — a curated, link shelf.
 - **Kaggle Dashboard** — your **top-5 submissions** for every competition slug you track (server-side proxy; your key never reaches other users).
 - **Activity** — a GitHub-style daily-streak heatmap.
 - **Weekly Competition** — upload a predictions CSV, get scored instantly against a hidden answer key, and climb a **shared leaderboard**.
